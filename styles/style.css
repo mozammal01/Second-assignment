@@ -78,7 +78,7 @@ body {
 }
 
 .second-site-menu {
-  /* display: grid;
+  display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   background-color: #161616;
@@ -87,7 +87,7 @@ body {
   margin: 0 0px;
   border-radius: 10px;
   margin-left: 15px;
-  margin-right: 15px; */
+  margin-right: 15px;
 }
 .second-site-menu-1 a{
   text-decoration: none;
@@ -124,121 +124,6 @@ body {
   margin-top: 25px;
   margin-bottom: 10px;
 }
-
-/*----------------------------
-        WEBSITE-2 START
------------------------------*/
-
-.hidden{
-  display: none;
-}
-
-/*-------------
-  Second site 
----------------*/
-
-/*---------
-    Menu
-----------*/
-.second-site-section {
-  display: flex;
-  /* display: grid; */
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 150px;
-  margin-bottom: 100px;
-}
-
-.second-site-menu {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  background-color: #161616;
-  width: 180px;
-  padding: 15px 50px;
-  margin: 0 0px;
-  border-radius: 10px;
-  margin-left: 15px;
-}
-
-/* .second-site-menu-1 {
-  color: white;
-  background-color: red;
-  width: 225px;
-  padding: 2px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-.second-site-menu-2 {
-  background-color: white;
-  width: 225px;
-  padding: 2px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.second-site-menu-3 {
-  margin-top: 10px;
-  background-color: white;
-  width: 225px;
-  padding: 2px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-} */
-
-/*-----------
-    Blogs
-------------*/
-
-.second-site-flags{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
-  row-gap: 20px;
-}
-
-.second-site-flag {
-  /* box-shadow: 0 0 10px 1px lightgray; */
-  border: 1px solid #E8E8E8;
-  border-radius: 10px;
-  padding: 30px;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-    /* width: 200px; */
-    /* margin-right: 0;  */
-}
-
-.second-site-flag-img {
-  display: flex;
-  /* justify-content: space-around; */
-  /* margin: 0; */
-  /* padding: 0; */
-}
-.second-site-flag-img span{
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  font-weight: bold;
-}
-.second-site-flag-info{
-  text-align: center;
-}
-.second-site-flag-info p{
-  color: #4D4D4D;
-}
-
-/*----------------------------
-        WEBSITE-2 END
------------------------------*/
 
 /*-----------
     Blogs
@@ -318,4 +203,40 @@ footer h1 {
 
 .fa-instagram {
   padding-right: 30px;
+}
+
+/*-----------------
+   Media querry
+------------------*/
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+  .second-site-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .second-site-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .second-site-menu-1{
+    margin-top: 25px;
+    margin-bottom: 16px;
+  }
+  .second-site-menu-2{
+    margin-bottom: 16px;
+  }
+  .second-site-menu-3{
+    margin-bottom: 16px;
+  }
+  .second-site-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .second-site-blog img{
+    width: 100%;
+  }
 }
