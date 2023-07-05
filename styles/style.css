@@ -168,6 +168,9 @@ body {
   color: gray;
   margin-right: 10px;
 }
+.hidden{
+  display: none;
+}
 
 /*---------
    Footer 
@@ -210,7 +213,7 @@ footer h1 {
    Media querry
 ------------------*/
 
-@media screen and (min-width: 321px) and (max-width: 991px) {
+@media screen and (min-width: 481px) and (max-width: 991px) {
   .second-site-blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -241,6 +244,22 @@ footer h1 {
   }
   .second-site-blog img{
     width: 100%;
+  }
+  .hidden{
+    display: flex;
+    background-color: #DD0000;
+    width: 15%;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .hidden-a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
