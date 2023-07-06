@@ -4,62 +4,6 @@ body {
   padding: 0;
 }
 
-/*------------
-   Top site 
--------------*/
-
-
-.top-site-section {
-  background-color: #161616;
-  border-radius: 30px;
-  margin: 35px 90px;
-}
-
-.top-site-div {
-  display: flex;
-}
-
-.top-site-info {
-  color: white;
-  padding-left: 90px;
-  width: 50%;
-  padding: 90px;
-}
-
-.top-site-h1 {
-  font-size: 70px;
-  margin: 0;
-  padding: 0;
-}
-
-.top-site-info p {
-  padding-bottom: 35px;
-}
-
-.top-site-a {
-  text-decoration: none;
-  background-color: #DD0000;
-  color: white;
-  padding: 16px 25px;
-  border-radius: 5px;
-  margin-bottom: 100px;
-}
-
-.top-site-a:hover {
-  background-color: orangered;
-}
-
-.fa-chevron-right {
-  padding: 0 15px;
-}
-
-.top-site-img {
-  display: flex;
-  width: 50%;
-  margin-top: 50px;
-  text-align: center;
-}
-
 /*-------------
   Second site 
 ---------------*/
@@ -101,6 +45,7 @@ body {
   margin-top: 25px;
   margin-bottom: 10px;
 }
+
 .second-site-menu-2 {
   background-color: white;
   width: 225px;
@@ -111,21 +56,27 @@ body {
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
 .second-site-menu-3 {
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: white;
   width: 225px;
-  padding: 2px;
+  padding: 16px 2px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
+}
+
+.second-site-menu-3 a {
+  text-decoration: none;
+  color: black;
 }
 
 /*-----------
     Blogs
 ------------*/
 
-.second-site-flags{
+.second-site-flags {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
@@ -140,8 +91,8 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-    /* width: 200px; */
-    /* margin-right: 0;  */
+  /* width: 200px; */
+  /* margin-right: 0;  */
 }
 
 .second-site-flag-img {
@@ -150,16 +101,19 @@ body {
   /* margin: 0; */
   /* padding: 0; */
 }
-.second-site-flag-img span{
+
+.second-site-flag-img span {
   display: flex;
   align-items: center;
   padding: 20px;
   font-weight: bold;
 }
-.second-site-flag-info{
+
+.second-site-flag-info {
   text-align: center;
 }
-.second-site-flag-info p{
+
+.second-site-flag-info p {
   color: #4D4D4D;
 }
 
